@@ -1,0 +1,100 @@
+
+:root{ 
+
+}
+*{
+     margin: 0;
+     padding: 0; 
+     box-sizing: border-box;
+     color: white;
+    text-decoration: none;
+}
+body{
+    background: black;
+}
+header{
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px;
+}   
+/* body o cuerpo de la pagina */
+
+/* main*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*   Encabezado*/
+nav ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    
+}
+h1{
+    color: white;
+}
+/* tarjeta  */
+.container-target{
+    width: 200px;
+    height: 300px;
+    background: gray;
+    border: 0.1px solid red;
+    border-radius: 15px;
+}
+.target-bg{
+    width: 198px;
+    height: 150px;
+    background: rgb(0, 0, 0);
+    border: 0.1 solid red;
+    border-radius: 15px;
+}
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    overflow-x: scroll;
+    gap: 20px;
+    width: 900px;
+   
+}
+::-webkit-scrollbar{
+    background: black;
+}
+::-webkit-scrollbar-thumb{
+    background-color: red;
+
+}
+.container2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 35px;
+}
+
+/*footer o pata de web*/
+
+.container-footer{
+    display: flex;
+    gap: 10pc;
+    margin: 30px;
+
+}
+footer img{
+    width: 200px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+h4{font-size: 30px;}
+footer div ul li{
+    padding: 10px;
+    list-style: none;
+}

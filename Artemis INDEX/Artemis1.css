@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    height: auto 10px;
+
+
+
+}
+p{
+    margin: 0 40;
+    display: flex;
+
+    align-content: 100px;
+    width: 500px;
+    height: 400px;
+}

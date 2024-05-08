@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+h1{
+    margin: 0;
+    justify-content: start;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+    list-style: none;
+
+}
+    
+ol{
+   
+    
+    
+}
+}
+li{
+    color: black;
+    list-style: none;
+    
+    
+}
+a{
+    color: black;
+    text-decoration-color: white; 
+}
+
+
+
+

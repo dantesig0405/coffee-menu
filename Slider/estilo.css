@@ -1,0 +1,33 @@
+img{
+    width: 250px;
+}
+.contenedor{
+    display: flex;
+    overflow-x: scroll;
+    width: 900px;
+    gap: 5px;
+    box-shadow: 0 0 30px 20px rgb(198, 214, 154);
+}
+.contenedor::-webkit-scrollbar{
+    height: 20px;
+}
+.contenedor::-webkit-scrollbar-thumb{
+    color: black;
+    background-color: black;
+border-radius: 30px ;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+body{
+    background-color: rgb(125, 83, 223);
+}

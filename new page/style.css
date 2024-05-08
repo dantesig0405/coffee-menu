@@ -1,0 +1,45 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+
+
+
+.titulo{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.contenedor-principal{
+    border-bottom: solid;
+    border-top: solid 10px;
+}
+
+.contenedor-texto{
+    margin: 0 40px;
+}
+h1, h2, h3{
+    padding: 10px;
+    margin: 20px;
+}
+
+.contact{
+
+}
+
+ul{
+    list-style: none;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 10px;
+    
+}

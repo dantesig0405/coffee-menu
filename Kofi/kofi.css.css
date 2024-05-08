@@ -1,0 +1,80 @@
+/* selector uiversal */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*da un limite a todo el codigo*/
+
+    
+
+}
+/*border box */
+
+/* fondo */
+
+body{
+    background-image: url(./imagenes/fondo.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+
+}
+
+/*contenedor carta*/
+
+.contenedor-carta{
+
+    
+    background: rgb(245, 196, 204);
+    width: 450px;
+    height: 550px;
+    box-shadow: 19px black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*tags adicionaels*/
+ul{
+    list-style: none;
+}
+
+hr{
+    width: 390px;
+}
+
+.list-drinks{
+    
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   padding: 35px 30px;
+}
+
+.foods{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 55px 45px ;
+   
+
+
+}
+.item1{
+    display: flex;
+    gap: 17.9pc;
+    
+}
+.item2{
+    display: flex;
+    gap: 16.3pc;
+    
+}
+.item3{
+    display: flex;
+    gap: 16pc;
+    
+}
